@@ -1,0 +1,117 @@
+:root{
+    font-size: 1.3rem;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+}
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #19246b;
+}
+.container{
+    /* margin-top: 6rem; */
+    margin: 2rem 0 0.9rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.title , .sub-title{
+    font-size: 1rem;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #000000;
+}
+.title{
+    color: aliceblue;
+    text-transform: uppercase;
+}
+.sub-title{
+    font-size: medium;
+    color: #8F8073;
+    /* margin-top: 18px; */
+}
+.user-input{
+    display: flex;
+    flex-direction: column;
+}
+.user-input input{
+    font-size: 1rem;
+    margin-bottom: 8px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    height: 1.5rem;
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.4);
+
+}
+.button{
+    height: 2rem;
+    width: 8rem;
+    margin-left: 2.4rem;
+    text-align: center;
+    margin-top: 0.8rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    outline: none;
+    border: none;
+    background-color: #5b92799d;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 8px;
+    cursor: pointer;
+    
+}
+.button:hover{
+    border: 1px solid greenyellow;
+    background-color: #5b927993;
+    transform: scale(1.05, 1.05);
+    transition: 0.5s;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+    
+}
+.qr-code{
+    margin-top: 1rem;
+    padding-top: 5px;
+    height: 13.2rem;
+    width: 11.5rem;
+    padding-left: 0.4rem;
+    border: 0.5rem solid #8F8073;
+    border-radius: 0.5rem;
+    background-color: #8F8073;
+}
+.qr-code button{
+    margin-top: 15px;
+    margin-left: 7px;
+  justify-content: center;
+    /* background-color: #8F8073; */
+    background-color: rgb(51, 51, 51);
+   color: #EAE6E5;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    border-radius: 9px;
+    height: 1.8rem;
+    width: 90%;
+    font-size: 1rem;
+    cursor: pointer;
+
+}
+.qr-code button:hover{
+    text-align: center;
+    justify-content: center;
+    transform: scale(1.01, 1.01);
+    transition: 0.5s;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+.qr-code button a{
+    width: 100%;
+    height: 100%;
+    color: #EAE6E5;
+}
